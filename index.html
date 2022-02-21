@@ -1,0 +1,65 @@
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Calculator</title>
+        
+        <meta name="description" content="00.Calculator">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/media.css" type="text/css">
+        <link rel="shortcut icon" href="https://iconarchive.com/download/i83449/pelfusion/long-shadow-ios7/Calculator.ico" type="image/x-icon">
+        <script src="https://unpkg.com/mathjs/lib/browser/math.js"></script>
+        <script src="js/script.js" defer></script>
+
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <div class="container" data-tilt data-tilt-full-page-listening data-tilt-max="4" data-tilt-scale="1.1">
+            <div class="top">
+                <span id="latestValue"></span>
+            </div>
+            <div class="input">
+                <input type="text" readonly class="value" name="txt" autocomplete="off" placeholder="0"/>
+            </div>
+            <form class="calculator">
+                <div class="buttons">
+                    <button type="button" class="num" value="ms">MS</button>
+                    <button type="button" class="num" value="mr">MR</button>
+                    <button type="button" class="num" value="mc">MC</button>
+                    <button type="button" class="num" value="mplus">M+</button>
+                    <button type="button" class="num" value="mminus">M-</button>
+
+                    <button type="button" class="num" value="%">&percnt;</button>
+                    <button type="button" class="num" value="/">&divide;</button>
+                    <button type="button" class="num" value="*">&times;</button>
+                    <button type="button" class="num" value="-">&minus;</button>
+                    <button type="button" class="num" value="+">&plus;</button>
+
+                    <button type="button" class="num" value="!">x!</button>
+                    <button type="button" class="num" value="7">7</button>
+                    <button type="button" class="num" value="8">8</button>
+                    <button type="button" class="num" value="9">9</button>
+                    <button  type="button"class="num" value="(">(</button>
+
+                    <button type="button" class="num" value="^">x&#8319;</button>
+                    <button type="button" class="num" value="4">4</button>
+                    <button type="button" class="num" value="5">5</button>
+                    <button type="button" class="num" value="6">6</button>
+                    <button type="button" class="num" value=")">)</button>
+
+                    <button type="button" class="num" value="sqrt">&radic;x</button>
+                    <button type="button" class="num" value="1">1</button>
+                    <button type="button" class="num" value="2">2</button>
+                    <button type="button" class="num" value="3">3</button>
+                    <button type="button" class="num" value="=">&equals;</button>
+
+                    <button type="button" class="num" value="clear">C</button>
+                    <button type="button" class="num" value=".">.</button>
+                    <button type="button" class="num" value="0">0</button>
+                    <button type="button" class="num" value="00">00</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
